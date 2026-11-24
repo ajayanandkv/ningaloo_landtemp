@@ -1,0 +1,5 @@
+for w in day night; do
+  for r in mean R3 R5; do
+    python dvar_daynight.py coast_geometry.nc --when $w --rcm $r
+  done
+done
